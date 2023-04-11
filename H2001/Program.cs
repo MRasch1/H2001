@@ -19,9 +19,9 @@ namespace H2001
             List<int> Fruits = new List<int>();
 
             
-            Fruits.Add(banana.banana = 2);
-            Fruits.Add(apple.apple = 4);
-            Fruits.Add(pineapple.pineapple = 9);
+            Fruits.Add(banana.cost = 2);
+            Fruits.Add(apple.cost = 4);
+            Fruits.Add(pineapple.cost = 9);
 
             Console.WriteLine("Banana = " + Fruits[0]);
             Console.WriteLine("Apple = " + Fruits[1]);
@@ -40,17 +40,17 @@ namespace H2001
         }
         public class Banana
         {
-            public int banana { get; set; }
+            public int cost { get; set; }
         }
 
         public class Apple
         {
-            public int apple { get; set; }
+            public int cost { get; set; }
         }
 
         public class Pineapple
         {
-            public int pineapple { get; set; }
+            public int cost { get; set; }
         }
 
     }
